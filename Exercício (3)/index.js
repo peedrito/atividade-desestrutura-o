@@ -15,6 +15,6 @@ for (aluno of alunos) {
     console.log(`Matematica: ${aluno.notas.matematica}`);
     console.log(`portugues: ${aluno.notas.portugues}`);
     console.log(`historia: ${aluno.notas.historia}`);
-    console.log(`[MEDIA DO ALUNO]: ${media.toFixed}`);
+    console.log(`[MEDIA DO ALUNO]: ${media.toFixed(2)}`);
     console.log(`---------`)
   };
